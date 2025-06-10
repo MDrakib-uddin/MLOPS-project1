@@ -1,0 +1,36 @@
+columns:
+  - id
+  - Gender
+  - Age
+  - Driving_License
+  - Region_Code
+  - Previously_Insured
+  - Vehicle_Age
+  - Vehicle_Damage
+  - Annual_Premium
+  - Vintage
+  - Response
+
+numerical_columns:
+  - Age
+  - Annual_Premium
+  - Region_Code
+
+categorical_columns:
+  - Gender
+  - Vehicle_Damage
+  - Previously_Insured
+  - Vehicle_Age
+  - Policy_Type
+  - Response
+
+drop_columns: _id
+
+# for data transformation
+num_features:
+  - Age
+  - Vintage
+
+
+mm_columns:
+  - Annual_Premium
