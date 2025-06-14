@@ -61,6 +61,7 @@ class VehicleData:
 
         try:
             input_data = {
+                "id": [0],
                 "Gender": [self.Gender],
                 "Age": [self.Age],
                 "Driving_License": [self.Driving_License],
